@@ -1,0 +1,40 @@
+body {
+  width: 1440px;
+  background-color: #d5e1ef;
+}
+
+.quadrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 320px;
+  height: 499px;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+  align-items: center;
+  padding: 16px;
+}
+
+.qrcode {
+  border-radius: 10%;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 300px;
+  height: 300px;
+  padding-bottom: 14px;
+}
+
+h1 {
+  color: #1f314f;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+p {
+  padding-top: 20px;
+  color: #68778d;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
